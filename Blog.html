@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="icon" type="image" href="images/th.jpeg">
+		<!-- style.css linking here -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font family linking here -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- font-awesome.min.css linking here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header section strt -->
+		<section class="sub-header">
+			<!-- nav strt -->
+			<nav>
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="About.html">ABOUT</a>
+						</li>
+						<li>
+							<a href="Course.html">COURSE</a>
+						</li>
+						<li>
+							<a href="Blog.html">BLOG</a>
+						</li>
+						<li>
+							<a href="Contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<h1>Our Certificate & Online Programs For 2022</h1>
+		</section>
+		<!-- header section end -->
+
+		<!-- blog page content -->
+		<section class="blog-content">
+			<div class="row">
+				<div class="blog-left">
+					<img src="images/certificate.jpg" alt="">
+					<h2>Our Certificate & Online Programs For 2022</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt dignissimos adipisci? Enim, assumenda consectetur corrupti illo temporibus, nisi expedita, quod sit, delectus officia natus aliquid minus numquam</p>
+					<br>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti quibusdam, fugiat maxime, veritatis, qui nobis at perspiciatis debitis nemo numquam sit ad aut, vel ratione ipsum labore quos similique. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quas doloremque cum, temporibus delectus, adipisci ut praesentium alias! Nulla asperiores sequi aut assumenda numquam nostrum, repellendus, a vero officia odio.</p>
+					<br>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Reiciendis obcaecati error commodi nulla ex officia amet rerum, cum velit nam a id magnam voluptatum sequi minus excepturi, nisi perspiciatis dicta. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam soluta error. Deleniti in voluptas dolore quae minus facere, veritatis laboriosam dolorem molestias! Laudantium deleniti illum, itaque asperiores repellat hic.</p>
+					<br>
+					<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Architecto illum minus sed assumenda, itaque fugiat ad. Facilis alias voluptates, fugit adipisci veritatis atque, laborum ex. Quidem dicta ab dignissimos dolore! Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Voluptatem.</p>
+
+					<div class="comment-box">
+						<h3>Leave a comment</h3>
+						<form class="comment-form">
+							<input type="text" placeholder="Enter Name">
+							<input type="Email" placeholder="Enter Email">
+							<textarea rows="5" placeholder="Your Comment"></textarea>
+							<button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+						</form>
+					</div>
+				</div>
+				<div class="blog-right">
+					<h3>Post Categories</h3>
+					<div>
+						<span>Business Analytics</span>
+						<span>21</span>
+					</div>
+					<div>
+						<span>Data Science</span>
+						<span>29</span>
+					</div>
+					<div>
+						<span>Machine Learning</span>
+						<span>18</span>
+					</div>
+					<div>
+						<span>Computer Science</span>
+						<span>37</span>
+					</div>
+					<div>
+						<span>AutoCAD</span>
+						<span>45</span>
+					</div>
+					<div>
+						<span>Journalism</span>
+						<span>42</span>
+					</div>
+					<div>
+						<span>Commerce</span>
+						<span>23</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	
+		
+		
+		<!-- footer strt -->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Ut reprehenderit labore eligendi tenetur, sapiente ab doloremque id provident dignissimos <br> ipsa perspiciatis voluptates sunt facilis minus omnis illo ea maxime nesciunt.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made With <i class="fa fa-heart"></i> by Sayeeda Saima with help of <i class="fa fa-heart"></i> Easy Tutorials  </p>
+		</section>
+		<!-- footer end -->
+		<!-- Javascript for toggle menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>
